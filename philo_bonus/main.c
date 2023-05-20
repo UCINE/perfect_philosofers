@@ -74,7 +74,6 @@ void	create_p(t_philo *philos)
 	}
 }
 
-// Function 1: Initialization
 void	initialize(int ac, char **av, t_philo **philos, t_info **global_info)
 {
 	int		num_of_philos;
@@ -102,7 +101,6 @@ void	initialize(int ac, char **av, t_philo **philos, t_info **global_info)
 		(*global_info)->notefme = ft_atoi(av[5]);
 }
 
-// Function 2: Main
 int	main(int ac, char **av)
 {
 	t_philo	*philos;
