@@ -12,7 +12,6 @@
 
 #include "philo.h"
 
-// Function 1: Initialization
 int	init_main(int ac, char **av, t_philo **philos, t_info **global_info)
 {
 	int	num_of_philos;
@@ -33,7 +32,6 @@ int	init_main(int ac, char **av, t_philo **philos, t_info **global_info)
 	return (0);
 }
 
-// Function 2: Further Initialization and Thread Creation
 int	create_threads(char **av, t_philo *philos, t_info *global_info,
 pthread_t **thread)
 {
@@ -101,7 +99,6 @@ int	main_loop(t_philo *philos, t_info *global_info)
 	return (0);
 }
 
-// Main function
 int	main(int ac, char **av)
 {
 	t_philo		*philos;
